@@ -1,0 +1,55 @@
+<html>
+    <body>
+        <script>
+function mainUpdate(type){
+    var d = new Date();
+    if(type == "weather"){
+ 
+    }else if (type == "statusbar"){
+ 
+    }else if (type == "battery"){
+        battery.innerHTML = batteryPercent;
+ 
+    }else if (type == "reminders"){
+ 
+    }else if (type == "events"){
+ 
+    }else if (type == "music"){
+ 
+    }else if (type == "system"){
+ 
+    }else if (type == "alarm"){
+ 
+    }
+    time.innerHTML = d.getTime()
+}
+</script>
+        <style>
+            body {
+                font-family: "San Francisco Display Thin";
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.svg#San Francisco Display Thin") format("svg")
+            }
+        </style>
+        <bar style="display:inline;position: fixed;width:100%;height:2%;background-color:rgba(0,0,0,.75);color:white;">&nbsp;
+            
+            <img src="https://201758-624029-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/05/white-apple-logo-on-black-background-md.png" alt="A" style="width:9%px;height:90%;">
+            &nbsp;&nbsp;&nbsp;iPadOS&nbsp;&nbsp;&nbsp;File &nbsp;Edit&nbsp;&nbsp;&nbsp;View&nbsp;&nbsp;&nbsp;Window&nbsp;&nbsp;&nbsp;Help
+    
+            
+            <right style="position:relative;right:-49%;">
+                
+            <battery id="battery"></battery> 
+            
+            <time id = "time"></time>
+            
+            <img src="https://vectorified.com/images/search-icon-white-png-26.png" alt="A" style="width:10%px;height:90%;">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/AppleSiriIcon2017.png" alt="A" style="width:10%px;height:90%;">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/VisualEditor_-_Icon_-_Indent-list-ltr_-_white.svg/1024px-VisualEditor_-_Icon_-_Indent-list-ltr_-_white.svg.png" alt="A" style="width:10%px;height:90%;">
+            </right>
+        </bar>
+    </body>
+</html>
